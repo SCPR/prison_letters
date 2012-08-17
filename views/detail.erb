@@ -1,6 +1,6 @@
 <div id="letter-detail">
       <div id="top-controls">
-          <p><a href="<%= page_path(@letter.id, @page.page_number) %>">Link to this letter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="<%= @page.full_url %>" target="blank">Open this letter in a new window</a></p>
+          <p><a href="<%= page_url(@letter.id, @page.page_number) %>">Link to this letter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="<%= @page.full_url %>" target="blank">Open this letter in a new window</a></p>
       </div>
       <div id="letter-image" style="margin:0 auto;text-align:center;">
           <img src="<%= @page.viewer_url %>" style="width:100%;">
@@ -12,7 +12,7 @@
                 <td class="last">
                     
 					<% if prev_letter = prev_letter(@letter) %>
-                      <a class="flojax" rel="letter-detail" href="<%= letter_path(prev_letter) %>">&laquo; Letter <%= prev_letter %></a>
+                      <a class="flojax" rel="letter-detail" href="<%= letter_url(prev_letter) %>">&laquo; Letter <%= prev_letter %></a>
                     <% end %>
 
                 </td>
@@ -22,7 +22,7 @@
                 <td class="next">
                     
 					<% if next_letter = next_letter(@letter) %>
-                      <a class="flojax" rel="letter-detail" href="<%= letter_path(next_letter) %>">Letter <%= next_letter %> &raquo;</a>
+                      <a class="flojax" rel="letter-detail" href="<%= letter_url(next_letter) %>">Letter <%= next_letter %> &raquo;</a>
                     <% end %>
                 </td>
             </tr>
@@ -30,7 +30,7 @@
                 <td class="last">
                     
 					<% if prev_page = prev_page(@page) %>
-                      <a class="flojax" rel="letter-detail" href="<%= page_path(@letter.id, prev_page) %>">&laquo; Page <%= prev_page %></a>
+                      <a class="flojax" rel="letter-detail" href="<%= page_url(@letter.id, prev_page) %>">&laquo; Page <%= prev_page %></a>
                     <% end %>
 
                 </td>
@@ -40,7 +40,7 @@
                 <td class="next">
                     
 					<% if next_page = next_page(@page) %>
-                      <a class="flojax" rel="letter-detail" href="<%= page_path(@letter.id, next_page) %>">Page <%= next_page %> &raquo;</a>
+                      <a class="flojax" rel="letter-detail" href="<%= page_url(@letter.id, next_page) %>">Page <%= next_page %> &raquo;</a>
                     <% end %>
                 </td>
             </tr>

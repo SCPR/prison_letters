@@ -2,7 +2,6 @@ $: << '.'
 
 require 'rubygems'
 require 'sinatra'
+require 'app'
 
-require 'app.rb'
-use Rack::ShowExceptions
 run Sinatra::Application

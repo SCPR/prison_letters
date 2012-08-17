@@ -25,6 +25,7 @@ function change_page() {
     
     return false;
 }
+
 $(document).ready(function(){
     $("div.page").hover(
           function () {
@@ -36,5 +37,5 @@ $(document).ready(function(){
             $(this).removeClass('highlightPage');
           }
         );
-    $("a.flojax").live("click", change_page);
+//    $("a.flojax").live("click", change_page);
 });

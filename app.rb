@@ -1,3 +1,5 @@
+$: << '.'
+
 require 'rubygems'
 require 'yaml'
 
@@ -8,17 +10,32 @@ require 'models/letter'
 
 set :app_file, __FILE__
 
+namespaces = {
+  development: "/",
+  production:  "http://media.scpr.org/prison/"
+}
+
+APP_NAMESPACE = namespaces[ENV["RACK_ENV"].to_sym]
+
 #---------------------
 
 helpers do
   #-------
-  # Route helpers  
-  def letter_path(letter_id)
-    "/letters/#{letter_id}/"
+  # Route helpers
+  def base_url
+    APP_NAMESPACE
   end
   
-  def page_path(letter_id, page_number)
-    "/letters/#{letter_id}/page/#{page_number}/"
+  def letter_url(letter_id)
+    "#{base_url}letters/#{letter_id}/"
+  end
+  
+  def page_url(letter_id, page_number)
+    "#{base_url}letters/#{letter_id}/page/#{page_number}/"
+  end
+  
+  def asset_url(file)
+    "#{base_url}#{file}"
   end
 
   #-------
@@ -70,14 +87,18 @@ def load_objects(letter_id, page_number)
   erb :detail
 end
 
-get '/letters/' do
+get '/' do
+  load_objects(1, 1)
+end
+
+get '/letters/?' do
   load_objects(1, 1)  
 end
 
-get '/letters/:letter/' do
+get '/letters/:letter/?' do
   load_objects(params[:letter].to_i, 1)
 end
 
-get '/letters/:letter/page/:page/' do
+get '/letters/:letter/page/:page/?' do
   load_objects(params[:letter].to_i, params[:page].to_i)
 end
