@@ -1,9 +1,6 @@
 require 'rubygems'
 require 'sinatra'
 
-set :environment, :production
-disable :run
-
-require 'app'
+require 'app.rb'
 use Rack::ShowExceptions
 run Sinatra::Application

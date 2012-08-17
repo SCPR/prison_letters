@@ -8,6 +8,8 @@ require 'sinatra'
 require 'models/page'
 require 'models/letter'
 
+set :app_file, __FILE__
+
 #---------------------
 
 helpers do
