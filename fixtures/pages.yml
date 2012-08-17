@@ -1,0 +1,697 @@
+---
+- !ruby/object:Page
+  letter_id: 1
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/046_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/046_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/046_page03.jpg
+- !ruby/object:Page
+  letter_id: 2
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/053_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/053_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/053_page02.jpg
+- !ruby/object:Page
+  letter_id: 3
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/008_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/008_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/008_page01.jpg
+- !ruby/object:Page
+  letter_id: 4
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/034_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/034_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/034_page01.jpg
+- !ruby/object:Page
+  letter_id: 5
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/022_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/022_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/022_page04.jpg
+- !ruby/object:Page
+  letter_id: 6
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/047_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/047_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/047_page03.jpg
+- !ruby/object:Page
+  letter_id: 7
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/024_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/024_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/024_page01.jpg
+- !ruby/object:Page
+  letter_id: 8
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/003_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/003_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/003_page04.jpg
+- !ruby/object:Page
+  letter_id: 9
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/041_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/041_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/041_page03.jpg
+- !ruby/object:Page
+  letter_id: 10
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/043_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/043_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/043_page01.jpg
+- !ruby/object:Page
+  letter_id: 11
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/010_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/010_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/010_page01.jpg
+- !ruby/object:Page
+  letter_id: 12
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/044_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/044_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/044_page01.jpg
+- !ruby/object:Page
+  letter_id: 13
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/031_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/031_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/031_page01.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/007_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page03.jpg
+- !ruby/object:Page
+  letter_id: 6
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/047_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/047_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/047_page01.jpg
+- !ruby/object:Page
+  letter_id: 7
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/024_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/024_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/024_page02.jpg
+- !ruby/object:Page
+  letter_id: 15
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/060_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/060_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/060_page01.jpg
+- !ruby/object:Page
+  letter_id: 16
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/004_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/004_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/004_page01.jpg
+- !ruby/object:Page
+  letter_id: 17
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/027_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/027_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/027_page02.jpg
+- !ruby/object:Page
+  letter_id: 18
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/032_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/032_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/032_page01.jpg
+- !ruby/object:Page
+  letter_id: 19
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/040_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/040_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/040_page01.jpg
+- !ruby/object:Page
+  letter_id: 20
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/017_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/017_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/017_page02.jpg
+- !ruby/object:Page
+  letter_id: 21
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/025_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/025_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/025_page02.jpg
+- !ruby/object:Page
+  letter_id: 22
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/026_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/026_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/026_page01.jpg
+- !ruby/object:Page
+  letter_id: 16
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/004_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/004_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/004_page04.jpg
+- !ruby/object:Page
+  letter_id: 20
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/017_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/017_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/017_page01.jpg
+- !ruby/object:Page
+  letter_id: 5
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/022_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/022_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/022_page01.jpg
+- !ruby/object:Page
+  letter_id: 23
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/013_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/013_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/013_page04.jpg
+- !ruby/object:Page
+  letter_id: 13
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/031_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/031_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/031_page03.jpg
+- !ruby/object:Page
+  letter_id: 6
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/047_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/047_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/047_page02.jpg
+- !ruby/object:Page
+  letter_id: 24
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/037_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/037_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/037_page01.jpg
+- !ruby/object:Page
+  letter_id: 1
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/046_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/046_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/046_page01.jpg
+- !ruby/object:Page
+  letter_id: 23
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/013_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/013_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/013_page03.jpg
+- !ruby/object:Page
+  letter_id: 25
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/059_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/059_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/059_page01.jpg
+- !ruby/object:Page
+  letter_id: 26
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/014_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/014_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/014_page01.jpg
+- !ruby/object:Page
+  letter_id: 10
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/043_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/043_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/043_page02.jpg
+- !ruby/object:Page
+  letter_id: 27
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/005_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/005_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/005_page01.jpg
+- !ruby/object:Page
+  letter_id: 21
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/025_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/025_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/025_page01.jpg
+- !ruby/object:Page
+  letter_id: 17
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/027_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/027_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/027_page01.jpg
+- !ruby/object:Page
+  letter_id: 23
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/013_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/013_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/013_page01.jpg
+- !ruby/object:Page
+  letter_id: 28
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/038_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/038_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/038_page01.jpg
+- !ruby/object:Page
+  letter_id: 5
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/022_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/022_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/022_page03.jpg
+- !ruby/object:Page
+  letter_id: 29
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/021_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/021_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/021_page02.jpg
+- !ruby/object:Page
+  letter_id: 25
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/059_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/059_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/059_page02.jpg
+- !ruby/object:Page
+  letter_id: 30
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/067_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/067_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/067_page01.jpg
+- !ruby/object:Page
+  letter_id: 31
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/002_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/002_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/002_page02.jpg
+- !ruby/object:Page
+  letter_id: 32
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/019_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/019_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/019_page01.jpg
+- !ruby/object:Page
+  letter_id: 33
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/052_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/052_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/052_page01.jpg
+- !ruby/object:Page
+  letter_id: 34
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/028_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/028_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/028_page02.jpg
+- !ruby/object:Page
+  letter_id: 35
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/030_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/030_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/030_page02.jpg
+- !ruby/object:Page
+  letter_id: 36
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/063_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/063_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/063_page01.jpg
+- !ruby/object:Page
+  letter_id: 37
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/016_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/016_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/016_page02.jpg
+- !ruby/object:Page
+  letter_id: 38
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/015_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/015_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/015_page02.jpg
+- !ruby/object:Page
+  letter_id: 39
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/042_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/042_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/042_page02.jpg
+- !ruby/object:Page
+  letter_id: 35
+  page_number: 6
+  full_url: http://media.scpr.org/projects/prison/letters/030_page06.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/030_page06.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/030_page06.jpg
+- !ruby/object:Page
+  letter_id: 16
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/004_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/004_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/004_page02.jpg
+- !ruby/object:Page
+  letter_id: 8
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/003_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/003_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/003_page03.jpg
+- !ruby/object:Page
+  letter_id: 40
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/057_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/057_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/057_page01.jpg
+- !ruby/object:Page
+  letter_id: 41
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/006_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/006_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/006_page01.jpg
+- !ruby/object:Page
+  letter_id: 23
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/013_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/013_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/013_page02.jpg
+- !ruby/object:Page
+  letter_id: 42
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/064_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/064_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/064_page01.jpg
+- !ruby/object:Page
+  letter_id: 22
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/026_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/026_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/026_page04.jpg
+- !ruby/object:Page
+  letter_id: 22
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/026_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/026_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/026_page03.jpg
+- !ruby/object:Page
+  letter_id: 43
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/056_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/056_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/056_page01.jpg
+- !ruby/object:Page
+  letter_id: 13
+  page_number: 6
+  full_url: http://media.scpr.org/projects/prison/letters/031_page06.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/031_page06.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/031_page06.jpg
+- !ruby/object:Page
+  letter_id: 44
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/048_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/048_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/048_page02.jpg
+- !ruby/object:Page
+  letter_id: 12
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/044_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/044_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/044_page02.jpg
+- !ruby/object:Page
+  letter_id: 35
+  page_number: 5
+  full_url: http://media.scpr.org/projects/prison/letters/030_page05.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/030_page05.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/030_page05.jpg
+- !ruby/object:Page
+  letter_id: 45
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/054_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/054_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/054_page02.jpg
+- !ruby/object:Page
+  letter_id: 1
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/046_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/046_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/046_page02.jpg
+- !ruby/object:Page
+  letter_id: 46
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/020_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/020_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/020_page02.jpg
+- !ruby/object:Page
+  letter_id: 13
+  page_number: 5
+  full_url: http://media.scpr.org/projects/prison/letters/031_page05.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/031_page05.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/031_page05.jpg
+- !ruby/object:Page
+  letter_id: 27
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/005_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/005_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/005_page02.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 7
+  full_url: http://media.scpr.org/projects/prison/letters/007_page07.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page07.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page07.jpg
+- !ruby/object:Page
+  letter_id: 16
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/004_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/004_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/004_page03.jpg
+- !ruby/object:Page
+  letter_id: 9
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/041_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/041_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/041_page02.jpg
+- !ruby/object:Page
+  letter_id: 35
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/030_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/030_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/030_page04.jpg
+- !ruby/object:Page
+  letter_id: 39
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/042_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/042_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/042_page01.jpg
+- !ruby/object:Page
+  letter_id: 47
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/065_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/065_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/065_page01.jpg
+- !ruby/object:Page
+  letter_id: 46
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/020_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/020_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/020_page01.jpg
+- !ruby/object:Page
+  letter_id: 48
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/045_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/045_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/045_page01.jpg
+- !ruby/object:Page
+  letter_id: 13
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/031_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/031_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/031_page02.jpg
+- !ruby/object:Page
+  letter_id: 49
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/066_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/066_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/066_page01.jpg
+- !ruby/object:Page
+  letter_id: 26
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/014_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/014_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/014_page02.jpg
+- !ruby/object:Page
+  letter_id: 37
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/016_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/016_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/016_page01.jpg
+- !ruby/object:Page
+  letter_id: 35
+  page_number: 3
+  full_url: http://media.scpr.org/projects/prison/letters/030_page03.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/030_page03.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/030_page03.jpg
+- !ruby/object:Page
+  letter_id: 13
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/031_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/031_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/031_page04.jpg
+- !ruby/object:Page
+  letter_id: 19
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/040_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/040_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/040_page02.jpg
+- !ruby/object:Page
+  letter_id: 33
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/052_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/052_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/052_page02.jpg
+- !ruby/object:Page
+  letter_id: 50
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/023_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/023_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/023_page01.jpg
+- !ruby/object:Page
+  letter_id: 51
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/058_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/058_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/058_page01.jpg
+- !ruby/object:Page
+  letter_id: 34
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/028_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/028_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/028_page01.jpg
+- !ruby/object:Page
+  letter_id: 5
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/022_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/022_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/022_page02.jpg
+- !ruby/object:Page
+  letter_id: 29
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/021_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/021_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/021_page01.jpg
+- !ruby/object:Page
+  letter_id: 31
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/002_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/002_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/002_page01.jpg
+- !ruby/object:Page
+  letter_id: 44
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/048_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/048_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/048_page01.jpg
+- !ruby/object:Page
+  letter_id: 52
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/061_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/061_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/061_page01.jpg
+- !ruby/object:Page
+  letter_id: 8
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/003_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/003_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/003_page02.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/007_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page01.jpg
+- !ruby/object:Page
+  letter_id: 41
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/006_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/006_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/006_page02.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 5
+  full_url: http://media.scpr.org/projects/prison/letters/007_page05.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page05.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page05.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 6
+  full_url: http://media.scpr.org/projects/prison/letters/007_page06.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page06.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page06.jpg
+- !ruby/object:Page
+  letter_id: 9
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/041_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/041_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/041_page01.jpg
+- !ruby/object:Page
+  letter_id: 11
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/010_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/010_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/010_page02.jpg
+- !ruby/object:Page
+  letter_id: 53
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/039_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/039_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/039_page01.jpg
+- !ruby/object:Page
+  letter_id: 54
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/055_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/055_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/055_page01.jpg
+- !ruby/object:Page
+  letter_id: 35
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/030_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/030_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/030_page01.jpg
+- !ruby/object:Page
+  letter_id: 45
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/054_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/054_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/054_page01.jpg
+- !ruby/object:Page
+  letter_id: 2
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/053_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/053_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/053_page01.jpg
+- !ruby/object:Page
+  letter_id: 38
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/015_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/015_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/015_page01.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/007_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page02.jpg
+- !ruby/object:Page
+  letter_id: 9
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/041_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/041_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/041_page04.jpg
+- !ruby/object:Page
+  letter_id: 22
+  page_number: 2
+  full_url: http://media.scpr.org/projects/prison/letters/026_page02.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/026_page02.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/026_page02.jpg
+- !ruby/object:Page
+  letter_id: 14
+  page_number: 4
+  full_url: http://media.scpr.org/projects/prison/letters/007_page04.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/007_page04.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/007_page04.jpg
+- !ruby/object:Page
+  letter_id: 8
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/003_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/003_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/003_page01.jpg
+- !ruby/object:Page
+  letter_id: 55
+  page_number: 1
+  full_url: http://media.scpr.org/projects/prison/letters/062_page01.jpg
+  viewer_url: http://media.scpr.org/projects/prison/viewer/062_page01.jpg
+  thumb_url: http://media.scpr.org/projects/prison/thumbs/062_page01.jpg

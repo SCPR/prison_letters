@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:og="http://opengraphprotocol.org/schema/" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+  <script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()])</script>
+    
+  <meta charset="utf-8" />
+  <meta name="description" content="Read letters from inmates who were involved in or witnessed the Aug. 8, 2009 riot. KPCC obtained the letters from a source who wished to remain anonymous related to someone who was in the Chino riot. That person removed the names of inmates so as to avoid possible retaliation by fellow inmates and prison guards." />
+  <meta name="google-site-verification" content="_2mjWERX7nx8aNcwb9P45f6DETmmrldavP79tHOjr0Q" />
+  <meta name="viewport" content="width=972" />
+  <meta name="author" content="Southern California Public Radio" />
+  
+  <!-- opengraph -->  
+  <meta property="og:site_name" content="KPCC" />
+  <meta property="fb:app_id" content="129848480405753" />
+  
+  <title>Chino Prison Inmate Letters | 89.3 KPCC</title>
+  
+  <link rel="shortcut icon" href="http://media.scpr.org/favicon.ico" />
+  <link rel="apple-touch-icon-precomposed" href="http://media.scpr.org/apple-touch-icon.png" />
+  <link rel="stylesheet" href="http://media.scpr.org/assets/styles/main.v9.1.css" />
+  <link href="http://media.scpr.org/assets/scripts/jquery.fancybox-1.3.4/jquery.fancybox-1.3.4.css" rel="stylesheet" />
+  <link href="https://plus.google.com/108872361044769229886/" rel="publisher" />
+  
+  <link rel="stylesheet" href="/assets/stylesheets/style.css" type="text/css" />
+  <script src="/assets/stylesheets/application.js" type="text/javascript"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+  <!-- chartbeat -->
+  <script type='text/javascript'>var _sf_startpt=(new Date()).getTime()</script>
+
+</head>
+
+<body>
+<div id="container">
+    
+  <div id="branding-bar">
+    <div class="wrapper">
+       <a href="http://www.scpr.org/"><img src="http://media.scpr.org/assets/images/logo-footer.png" alt="Southern California Public Radio" style="padding-bottom:1px;"/></a>
+    </div>
+  </div> <!-- branding-bar -->
+
+  <div id="header-special" style="border-bottom:2px;">
+    <div class="wrapper">
+      <div style="width:360px;float:left;padding-top:10px;padding-left:10px;">
+        <h1 style="color:#f4f4f4;font-size:20px;">Chino Prison Inmate Letters</h1>
+          
+        <p style="font-size:11px;margin:5px 0"><a href="/specials/prison/">&raquo; Special Report: "After the Chino Prison riot"</a></p>
+      </div>
+      
+	  <div style="width:585px;float:left;padding-right:10px;">
+        <p style="font-size:11px;color:#f4f4f4;">Read letters from inmates who were involved in or witnessed the Aug. 8, 2009 riot. KPCC obtained the letters from a source who wished to remain anonymous related to someone who was in the Chino riot. That person removed the names of inmates so as to avoid possible retaliation by fellow inmates and prison guards.</p>
+      </div>
+      <br style="clear:both" />
+    </div> <!-- wrapper -->
+  </div> <!-- header-special -->
+
+  <div id="content">
+    <div class="wrapper">
+      <div id="letter-container">
+        
+        <%= yield %>
+        
+        <div id="letter-box">
+            <p style="text-align:center;color:#999;font-size:11px;margin:5px;"><%= @all_letters.size %> letters&nbsp;&nbsp;|&nbsp;&nbsp;<%= @all_pages.size %> pages</p>
+            <% @all_letters.each do |letter| %>
+              <% letter.pages.each do |page| %>
+                <div id="l<%=letter.id%>-p<%=page.page_number%>" class="letter-<%=letter.id%> page"><a class="flojax" rel="letter-detail"  href="<%= page_path(letter.id, page.page_number) %>"><img src="<%= page.thumb_url %>"></a></div>
+              <% end %>
+            <% end %>
+        
+            <div style="clear:both"></div>
+        </div> <!-- letter-box -->
+      
+        <br class="clear-float" />
+      </div> <!-- letter-container -->
+    </div> <!-- wrapper -->
+    
+    <div id="footer-special">
+      <div class="wrapper">
+        <span style="font-size:11px;">&copy; 2011 Southern California Public Radio</span>
+      </div>
+    </div> <!-- footer-special -->
+  
+  </div> <!-- content -->
+</div> <!-- container -->
+
+<%= erb :footer_js %>
+</body>
+</html>

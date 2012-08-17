@@ -1,0 +1,168 @@
+<script src="http://media.scpr.org/assets/scripts/modernizr-1.7.min.js"></script>
+
+<!-- Stats: Chartbeat -->
+<script type='text/javascript'>
+    var _sf_async_config={};
+    /** CONFIGURATION START **/
+    _sf_async_config.uid = 2825;
+    _sf_async_config.domain = 'scpr.org';
+    _sf_async_config.sections = 'Change this to your Section name';  //CHANGE THIS
+    _sf_async_config.authors = 'Change this to your Author name';    //CHANGE THIS
+    /** CONFIGURATION END **/
+    (function(){
+      function loadChartbeat() {
+        window._sf_endpt=(new Date()).getTime();
+        var e = document.createElement('script');
+        e.setAttribute('language', 'javascript');
+        e.setAttribute('type', 'text/javascript');
+        e.setAttribute('src',
+           (('https:' == document.location.protocol) ? 'https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/' : 'http://static.chartbeat.com/') +
+           'js/chartbeat.js');
+        document.body.appendChild(e);
+      }
+      var oldonload = window.onload;
+      window.onload = (typeof window.onload != 'function') ?
+         loadChartbeat : function() { oldonload(); loadChartbeat(); };
+    })();
+</script>
+<!-- /Chartbeat -->
+
+<!-- BEGIN Comscore -->
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "6035974", c3: "", c4: "" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript>
+<img src="http://b.scorecardresearch.com/p?c1=2&c2=6035974&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1" />
+</noscript>
+<!-- END Comscore -->
+
+<!-- Stats: WebTrends -->
+<script src="http://media.scpr.org/assets/scripts/webtrends.v2.js"></script>
+<script>
+    //<![CDATA[
+        var _tag=new WebTrends();
+        _tag.dcsGetId();
+    //]]>
+</script>
+<script>
+    //<![CDATA[
+        _tag.dcsCustom=function(){
+            // Add custom parameters here.
+            //_tag.DCSext.param_name=param_value;
+        }
+    _tag.dcsCollect();
+    //]]>
+</script>
+<noscript>
+    <div><img alt="DCSIMG" id="DCSIMG" width="1" height="1" src="http://statse.webtrendslive.com/dcsyqctzwuz5bdsebpmwhwe8w_2p8d/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=9.3.0&amp;WT.dcssip=www.scpr.org"/></div>
+</noscript>
+<!-- /WebTrends -->
+
+<!-- Stats: Google Analytics -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-624724-1']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowHash', 'false']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+  var DISQUSWIDGETS = {};
+  $(function() {
+      social = new scpr.SocialTools();
+  })
+
+</script>
+<!-- /Google Analytics -->
+<!-- Google Analytics Social Tracking -->
+<script type="text/javascript">
+    // Copyright 2011 Google Inc. All Rights Reserved.
+    var _ga = _ga || {};
+    var _gaq = _gaq || [];
+    
+    _ga.trackSocial = function(opt_pageUrl, opt_trackerName) {
+      _ga.trackFacebook(opt_pageUrl, opt_trackerName);
+      _ga.trackTwitter(opt_pageUrl, opt_trackerName);
+    };
+
+    _ga.trackFacebook = function(opt_pageUrl, opt_trackerName) {
+      var trackerName = _ga.buildTrackerName_(opt_trackerName);
+      try {
+        if (FB && FB.Event && FB.Event.subscribe) {
+          FB.Event.subscribe('edge.create', function(targetUrl) {
+            _gaq.push([trackerName + '_trackSocial', 'facebook', 'like',
+                targetUrl, opt_pageUrl]);
+          });
+          FB.Event.subscribe('edge.remove', function(targetUrl) {
+            _gaq.push([trackerName + '_trackSocial', 'facebook', 'unlike',
+                targetUrl, opt_pageUrl]);
+          });
+          FB.Event.subscribe('message.send', function(targetUrl) {
+            _gaq.push([trackerName + '_trackSocial', 'facebook', 'send',
+                targetUrl, opt_pageUrl]);
+          });
+        }
+      } catch (e) {}
+    };
+
+    _ga.buildTrackerName_ = function(opt_trackerName) {
+      return opt_trackerName ? opt_trackerName + '.' : '';
+    };
+
+    _ga.trackTwitter = function(opt_pageUrl, opt_trackerName) {
+      var trackerName = _ga.buildTrackerName_(opt_trackerName);
+      try {
+        if (twttr && twttr.events && twttr.events.bind) {
+          twttr.events.bind('tweet', function(event) {
+            if (event) {
+              var targetUrl; // Default value is undefined.
+              if (event.target && event.target.nodeName == 'IFRAME') {
+                targetUrl = _ga.extractParamFromUri_(event.target.src, 'url');
+              }
+              _gaq.push([trackerName + '_trackSocial', 'twitter', 'tweet',
+                targetUrl, opt_pageUrl]);
+            }
+          });
+        }
+      } catch (e) {}
+    };
+
+    _ga.extractParamFromUri_ = function(uri, paramName) {
+      if (!uri) {
+        return;
+      }
+      var uri = uri.split('#')[0];  // Remove anchor.
+      var parts = uri.split('?');  // Check for query params.
+      if (parts.length == 1) {
+        return;
+      }
+      var query = decodeURI(parts[1]);
+
+      // Find url param.
+      paramName += '=';
+      var params = query.split('&');
+      for (var i = 0, param; param = params[i]; ++i) {
+        if (param.indexOf(paramName) === 0) {
+          return unescape(param.split('=')[1]);
+        }
+      }
+      return;
+    };
+</script>
+<script>
+    _ga.trackSocial();
+  </script>
+<!-- /Google Analytics Social Tracking -->
