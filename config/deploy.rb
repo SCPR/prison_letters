@@ -5,9 +5,9 @@ set :scm, :git
 set :repository,  "git@github.com:SCPR/prison_letters.git"
 set :scm_verbose, true
 set :deploy_via, :remote_cache
-set :deploy_to, "/web/archives/prison_letters"
+set :deploy_to, "/web/archive/prison_letters"
 
-set :user, "archives"
+set :user, "archive"
 set :use_sudo, false
 set :group_writable, false
 
