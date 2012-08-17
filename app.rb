@@ -1,7 +1,9 @@
 $: << '.'
 
-require 'sinatra'
+require 'rubygems'
 require 'yaml'
+
+require 'sinatra'
 
 require 'models/page'
 require 'models/letter'
