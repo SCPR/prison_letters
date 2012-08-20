@@ -10,12 +10,7 @@ require 'models/letter'
 
 set :app_file, __FILE__
 
-namespaces = {
-  development: "/",
-  production:  "http://media.scpr.org/prison/"
-}
-
-APP_NAMESPACE = namespaces[ENV["RACK_ENV"].to_sym]
+APP_NAMESPACE = ""
 
 #---------------------
 
@@ -26,16 +21,16 @@ helpers do
     APP_NAMESPACE
   end
   
-  def letter_url(letter_id)
-    "#{base_url}letters/#{letter_id}/"
+  def letter_path(letter_id)
+    "#{base_url}/letters/#{letter_id}/"
   end
   
-  def page_url(letter_id, page_number)
-    "#{base_url}letters/#{letter_id}/page/#{page_number}/"
+  def page_path(letter_id, page_number)
+    "#{base_url}/letters/#{letter_id}/page/#{page_number}/"
   end
   
-  def asset_url(file)
-    "#{base_url}#{file}"
+  def asset_path(file)
+    "#{base_url}/#{file}"
   end
 
   #-------
@@ -87,18 +82,18 @@ def load_objects(letter_id, page_number)
   erb :detail
 end
 
-get '/' do
+get "#{APP_NAMESPACE}/?" do
   load_objects(1, 1)
 end
 
-get '/letters/?' do
+get "#{APP_NAMESPACE}/letters/?" do
   load_objects(1, 1)  
 end
 
-get '/letters/:letter/?' do
+get "#{APP_NAMESPACE}/letters/:letter/?" do
   load_objects(params[:letter].to_i, 1)
 end
 
-get '/letters/:letter/page/:page/?' do
+get "#{APP_NAMESPACE}/letters/:letter/page/:page/?" do
   load_objects(params[:letter].to_i, params[:page].to_i)
 end

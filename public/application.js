@@ -1,31 +1,3 @@
-function clearHighlight(){
-    $("div.currentPage").removeClass("currentPage");
-}
-
-function change_page() {
-    var current_page = $(this);
-    var target_block = $("div#letter-detail");
-    
-    function successCallback(data, textStatus) {
-        target_block.replaceWith(data);
-    }
-    function errorCallback(request, textStatus, errorThrown) {
-        alert('There was an error. Please try again.');
-    }
-    
-    clearHighlight();
-    
-    $.ajax({
-        'url': current_page.attr('href'),
-        'type': 'POST',
-        'data': '',
-        'success': successCallback,
-        'error': errorCallback
-    });
-    
-    return false;
-}
-
 $(document).ready(function(){
     $("div.page").hover(
           function () {
@@ -37,5 +9,4 @@ $(document).ready(function(){
             $(this).removeClass('highlightPage');
           }
         );
-//    $("a.flojax").live("click", change_page);
 });
