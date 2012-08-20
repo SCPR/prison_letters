@@ -19,8 +19,16 @@ set :rails_env, :production
 
 # --------------
 # Roles
+
 role :app,      "media.scpr.org"
 role :web,      "media.scpr.org"
+
+# Setup staging
+task :staging do
+  roles.clear
+  role :app, "scprdev.org"
+  role :web, "scprdev.org"
+end
 
 after "deploy:restart", "deploy:cleanup"
 
