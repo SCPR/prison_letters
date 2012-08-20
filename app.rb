@@ -10,27 +10,22 @@ require 'models/letter'
 
 set :app_file, __FILE__
 
-APP_NAMESPACE = ""
-
 #---------------------
 
 helpers do
   #-------
   # Route helpers
-  def base_url
-    APP_NAMESPACE
-  end
   
   def letter_path(letter_id)
-    "#{base_url}/letters/#{letter_id}/"
+    url("/letters/#{letter_id}/")
   end
   
   def page_path(letter_id, page_number)
-    "#{base_url}/letters/#{letter_id}/page/#{page_number}/"
+    url("/letters/#{letter_id}/page/#{page_number}/")
   end
   
   def asset_path(file)
-    "#{base_url}/#{file}"
+    url("/#{file}")
   end
 
   #-------
