@@ -77,18 +77,18 @@ def load_objects(letter_id, page_number)
   erb :detail
 end
 
-get "#{APP_NAMESPACE}/?" do
+get "/?" do
   load_objects(1, 1)
 end
 
-get "#{APP_NAMESPACE}/letters/?" do
+get "/letters/?" do
   load_objects(1, 1)  
 end
 
-get "#{APP_NAMESPACE}/letters/:letter/?" do
+get "/letters/:letter/?" do
   load_objects(params[:letter].to_i, 1)
 end
 
-get "#{APP_NAMESPACE}/letters/:letter/page/:page/?" do
+get "/letters/:letter/page/:page/?" do
   load_objects(params[:letter].to_i, params[:page].to_i)
 end
