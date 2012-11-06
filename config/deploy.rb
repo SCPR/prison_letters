@@ -1,6 +1,6 @@
 require "bundler/capistrano"
 
-set :application, "prison_letters"
+set :application, "prison"
 set :scm, :git
 set :repository,  "git@github.com:SCPR/prison_letters.git"
 set :scm_verbose, true
