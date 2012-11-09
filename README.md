@@ -2,7 +2,7 @@
 
 Originally hosted at <http://kpcc.org/specials/prison/letters>.
 
-### Dependancies
+### Dependencies
 * Sinatra
 
 ### Deployment
