@@ -27,7 +27,6 @@
 
 <body>
 <div id="container">
-    
   <div id="branding-bar">
     <div class="wrapper">
        <a href="http://www.scpr.org/"><img src="http://media.scpr.org/assets/images/logo-footer.png" alt="Southern California Public Radio" style="padding-bottom:1px;"/></a>
@@ -38,11 +37,10 @@
     <div class="wrapper">
       <div style="width:360px;float:left;padding-top:10px;padding-left:10px;">
         <h1 style="color:#f4f4f4;font-size:20px;">Chino Prison Inmate Letters</h1>
-          
         <p style="font-size:11px;margin:5px 0"><a href="/specials/prison/">&raquo; Special Report: "After the Chino Prison riot"</a></p>
       </div>
       
-	  <div style="width:585px;float:left;padding-right:10px;">
+      <div style="width:585px;float:left;padding-right:10px;">
         <p style="font-size:11px;color:#f4f4f4;">Read letters from inmates who were involved in or witnessed the Aug. 8, 2009 riot. KPCC obtained the letters from a source who wished to remain anonymous related to someone who was in the Chino riot. That person removed the names of inmates so as to avoid possible retaliation by fellow inmates and prison guards.</p>
       </div>
       <br style="clear:both" />
@@ -52,18 +50,17 @@
   <div id="content">
     <div class="wrapper">
       <div id="letter-container">
-        
         <%= yield %>
         
         <div id="letter-box">
-            <p style="text-align:center;color:#999;font-size:11px;margin:5px;"><%= @all_letters.size %> letters&nbsp;&nbsp;|&nbsp;&nbsp;<%= @all_pages.size %> pages</p>
-            <% @all_letters.each do |letter| %>
-              <% letter.pages.each do |page| %>
-                <div id="l<%=letter.id%>-p<%=page.page_number%>" class="letter-<%=letter.id%> page"><a class="flojax" rel="letter-detail"  href="<%= page_path(letter.id, page.page_number) %>"><img src="<%= page.thumb_url %>"></a></div>
-              <% end %>
+          <p style="text-align:center;color:#999;font-size:11px;margin:5px;"><%= @all_letters.size %> letters&nbsp;&nbsp;|&nbsp;&nbsp;<%= @all_pages.size %> pages</p>
+          <% @all_letters.each do |letter| %>
+            <% letter.pages.each do |page| %>
+              <div id="l<%=letter.id%>-p<%=page.page_number%>" class="letter-<%=letter.id%> page"><a class="flojax" rel="letter-detail"  href="<%= page_path(letter.id, page.page_number) %>"><img src="<%= page.thumb_url %>"></a></div>
             <% end %>
-        
-            <div style="clear:both"></div>
+          <% end %>
+      
+          <div style="clear:both"></div>
         </div> <!-- letter-box -->
       
         <br class="clear-float" />

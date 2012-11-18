@@ -1,56 +1,50 @@
 <div id="letter-detail">
-      <div id="top-controls">
-          <p><a href="<%= page_path(@letter.id, @page.page_number) %>">Link to this letter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="<%= @page.full_url %>" target="blank">Open this letter in a new window</a></p>
-      </div>
-      <div id="letter-image" style="margin:0 auto;text-align:center;">
-          <img src="<%= @page.viewer_url %>" style="width:100%;">
-
-      </div>
-      <div id="bottom-controls">
-        <table id="pagination">
-            <tr id="letter-status">
-                <td class="last">
-                    
-					<% if prev_letter = prev_letter(@letter) %>
-                      <a class="flojax" rel="letter-detail" href="<%= letter_path(prev_letter) %>">&laquo; Letter <%= prev_letter %></a>
-                    <% end %>
-
-                </td>
-                <td class="current">
-                    Letter <%= @letter.id %> of <%= @all_letters.size %>
-                </td>
-                <td class="next">
-                    
-					<% if next_letter = next_letter(@letter) %>
-                      <a class="flojax" rel="letter-detail" href="<%= letter_path(next_letter) %>">Letter <%= next_letter %> &raquo;</a>
-                    <% end %>
-                </td>
-            </tr>
-            <tr id="page-status">
-                <td class="last">
-                    
-					<% if prev_page = prev_page(@page) %>
-                      <a class="flojax" rel="letter-detail" href="<%= page_path(@letter.id, prev_page) %>">&laquo; Page <%= prev_page %></a>
-                    <% end %>
-
-                </td>
-                <td class="current">
-                    Page <%= @page.page_number %> of <%= @letter.pages.size %>
-                </td>
-                <td class="next">
-                    
-					<% if next_page = next_page(@page) %>
-                      <a class="flojax" rel="letter-detail" href="<%= page_path(@letter.id, next_page) %>">Page <%= next_page %> &raquo;</a>
-                    <% end %>
-                </td>
-            </tr>
-        </table>
-                    
-      </div>
-      <script type="text/javascript">
-      $(document).ready(function(){
-        $("div#letter-box div#l<%=@letter.id%>-p<%=@page.page_number%>").addClass("currentPage");
-        });
-    </script>
+  <div id="top-controls">
+    <p><a href="<%= page_path(@letter.id, @page.page_number) %>">Link to this letter</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="<%= @page.full_url %>" target="blank">Open this letter in a new window</a></p>
   </div>
-</div>
+  
+  <div id="letter-image" style="margin:0 auto;text-align:center;">
+    <img src="<%= @page.viewer_url %>" style="width:100%;">
+  </div>
+  
+  <div id="bottom-controls">
+    <table id="pagination">
+      <tr id="letter-status">
+        <td class="last">
+          <% if prev_letter = prev_letter(@letter) %>
+            <a class="flojax" rel="letter-detail" href="<%= letter_path(prev_letter) %>">&laquo; Letter <%= prev_letter %></a>
+          <% end %>
+        </td>
+        <td class="current">
+          Letter <%= @letter.id %> of <%= @all_letters.size %>
+        </td>
+        <td class="next">
+          <% if next_letter = next_letter(@letter) %>
+            <a class="flojax" rel="letter-detail" href="<%= letter_path(next_letter) %>">Letter <%= next_letter %> &raquo;</a>
+          <% end %>
+        </td>
+      </tr>
+      <tr id="page-status">
+        <td class="last">                    
+          <% if prev_page = prev_page(@page) %>
+            <a class="flojax" rel="letter-detail" href="<%= page_path(@letter.id, prev_page) %>">&laquo; Page <%= prev_page %></a>
+          <% end %>
+        </td>
+        <td class="current">
+          Page <%= @page.page_number %> of <%= @letter.pages.size %>
+        </td>
+        <td class="next">
+          <% if next_page = next_page(@page) %>
+            <a class="flojax" rel="letter-detail" href="<%= page_path(@letter.id, next_page) %>">Page <%= next_page %> &raquo;</a>
+          <% end %>
+        </td>
+      </tr>
+    </table>
+  </div> <!-- bottom-controls -->
+</div> <!-- letter-detail -->
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("div#letter-box div#l<%=@letter.id%>-p<%=@page.page_number%>").addClass("currentPage");
+  });
+</script>
