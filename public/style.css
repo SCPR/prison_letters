@@ -39,8 +39,8 @@ div.page{
 	border:1px solid #333;
 	background-color:#333;
     float:left;
-    -webkit-transition:.25s;       
-    cursor:pointer; 
+    -webkit-transition:.25s;
+    cursor:pointer;
 }
 div.page img{
 	position: relative;
@@ -49,7 +49,7 @@ div.page img{
 	margin: 0;
     height:114px;
     width:80px;
-    
+
 }
 div#letter-detail{
 	float: left;
