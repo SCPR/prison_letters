@@ -1,0 +1,3 @@
+web: "1.1.1.1"
+deploy_to: "/path/to/user"
+user: username
