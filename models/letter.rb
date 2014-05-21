@@ -1,10 +1,7 @@
 class Letter
   class << self
     def all
-      @letters ||= begin
-        letters = YAML.load_file("fixtures/letters.yml")
-        letters.sort_by(&:id)
-      end
+      @letters ||= YAML.load_file("fixtures/letters.yml").sort_by(&:id)
     end
 
     #----------------

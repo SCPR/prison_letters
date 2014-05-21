@@ -1,9 +1,7 @@
 class Page
   class << self
     def all
-      @pages ||= begin
-        pages = YAML.load_file("fixtures/pages.yml")
-      end
+      @pages ||= YAML.load_file("fixtures/pages.yml")
     end
 
     #----------------
