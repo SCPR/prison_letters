@@ -18,7 +18,7 @@ set :group_writable, false
 set :branch, "master"
 set :rails_env, :production
 
-role :app, deploy_config['web']
+role :app, deploy_config['server']
 
 after "deploy:restart", "deploy:cleanup"
 
