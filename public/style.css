@@ -1,58 +1,58 @@
 html{
-	background-color: #ebeffb;
+    background-color: #ebeffb;
 }
 div#primaryNav, div#secondaryNav{display:none;}
 div#letter-container{
-	background-color:#333;
+    background-color:#333;
 }
 div#header-special{
-	width: 100%;
-	background-color: #ebeffb;
-	background-color:#444;
+    width: 100%;
+    background-color: #ebeffb;
+    background-color:#444;
 }
 div#branding-bar{
-	width:100%;
-	background-color: #ebeffb;
-	padding:5px 0;
+    width:100%;
+    background-color: #ebeffb;
+    padding:5px 0;
 }
 div#footer-special{
-	width: 100%;
-	background-color: #ebeffb;
-	color: #444;
-	padding:10px 0;
+    width: 100%;
+    background-color: #ebeffb;
+    color: #444;
+    padding:10px 0;
 }
 div#letter-box{
-	width: 300px;
-	height: 600px;
-	overflow: auto;
-	overflow-y:scroll;
-	overflow-x:hidden;
-	background-color: #333;
-	padding: 5px;
-	float:right;
+    width: 300px;
+    height: 600px;
+    overflow: auto;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    background-color: #333;
+    padding: 5px;
+    float:right;
     text-align:center;
     position:relative;
 }
 div.page{
-	height:120px;
-	width:89px;
-	border:1px solid #333;
-	background-color:#333;
+    height:120px;
+    width:89px;
+    border:1px solid #333;
+    background-color:#333;
     float:left;
     -webkit-transition:.25s;
     cursor:pointer;
 }
 div.page img{
-	position: relative;
-	top: 3px;
-	padding: 0;
-	margin: 0;
+    position: relative;
+    top: 3px;
+    padding: 0;
+    margin: 0;
     height:114px;
     width:80px;
 
 }
 div#letter-detail{
-	float: left;
+    float: left;
     width:640px;
     background-color:#777;
 }
@@ -73,18 +73,18 @@ div#letter-detail{
 div#top-controls{
     background-color:#000;
     color:#f4f4f4;
-	height: 35px;
+    height: 35px;
 }
 div#top-controls p{
-	position: relative;
-	margin: 0;
-	text-align: right;
-	top: 10px;
-	right: 15px;
-	font-size: 11px;
+    position: relative;
+    margin: 0;
+    text-align: right;
+    top: 10px;
+    right: 15px;
+    font-size: 11px;
 }
 div#bottom-controls{
-	height: 55px;
+    height: 55px;
     background-color:#000;
     color:#f4f4f4;
 }
@@ -96,34 +96,34 @@ div#letter-image{
     overflow-x:hidden;
 }
 table#pagination{
-	position: relative;
-	top: 10px;
-	margin: 0 auto;
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
 }
 table#pagination td{
-	border: none;
-	line-height: 18px;
-	font-size: 12px;
-	color: #bbb;
+    border: none;
+    line-height: 18px;
+    font-size: 12px;
+    color: #bbb;
 }
 table#pagination td.last{
-	text-align: right;
-	width: 70px;
+    text-align: right;
+    width: 70px;
 }
 table#pagination td.current{
-	width: 100px;
-	text-align: center;
+    width: 100px;
+    text-align: center;
 }
 table#pagination td.next{
-	text-align: left;
-	width: 70px;
+    text-align: left;
+    width: 70px;
 }
 a{
     color:#ffaa33;
     font-weight:bold;
 }
 div#content{
-	background-color: #444;
+    background-color: #444;
 }
 div#content div.wrapper{
     border:none;
